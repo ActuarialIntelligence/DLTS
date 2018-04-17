@@ -44,5 +44,11 @@
     <Compile Include="Noise.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ActuarialIntelligence.DLTS.Infrastructure\ActuarialIntelligence.DLTS.Infrastructure.csproj">
+      <Project>{68a753b0-b22e-4672-afb3-ccbed28c4a05}</Project>
+      <Name>ActuarialIntelligence.DLTS.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
