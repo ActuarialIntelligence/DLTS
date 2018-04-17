@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActuarialIntelligence.DLTS.Domain", "ActuarialIntelligence.DLTS.Domain\ActuarialIntelligence.DLTS.Domain.csproj", "{A8C2E8C9-23DF-452B-9118-B60DFB14349E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActuarialIntelligence.DLTS.NoiseModels", "ActuarialIntelligence.DLTS.NoiseModels\ActuarialIntelligence.DLTS.NoiseModels.csproj", "{98F00BAE-50B8-45C0-BFF2-FB0863C48C16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A8C2E8C9-23DF-452B-9118-B60DFB14349E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8C2E8C9-23DF-452B-9118-B60DFB14349E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8C2E8C9-23DF-452B-9118-B60DFB14349E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F00BAE-50B8-45C0-BFF2-FB0863C48C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F00BAE-50B8-45C0-BFF2-FB0863C48C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F00BAE-50B8-45C0-BFF2-FB0863C48C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F00BAE-50B8-45C0-BFF2-FB0863C48C16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
